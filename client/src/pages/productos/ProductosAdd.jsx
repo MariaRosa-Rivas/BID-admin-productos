@@ -20,7 +20,7 @@ const ProductosAdd = () => {
             Swal.fire({
                 icon: 'success',
                 title: 'GENIAL!!!',
-                text: `Se ha agregado ${respuesta.data.title} perfectamente!`,
+                text: `Se ha agregado ${respuesta.data.titulo} correctamente!`,
             });
 
             actions.resetForm(initialValues);
